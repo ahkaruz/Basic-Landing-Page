@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <h1 class="heading">৫ পিছের কম্ফোর্টার সেট পাচ্ছেন মাত্র ৩১৫০ টাকায়<br><span>!!!এখনই অর্ডার করুন!!!</span></h1>
@@ -22,9 +23,39 @@
             <p>২ টি মাথার বালিশের কভার।</p>
             <p>২ টি মাথার বালিশের কভার।</p>
         </div>
+        <div class="checkout">
+            <div class="checkout-title">
+                <h2>অর্ডার করতে নিচের ফর্মটি সঠিক ভাবে পূরন করুন</h2>
+            </div>
 
-    </div>
+            <form class="checkout-form" action="#">
 
-</body>
+                <p>আপনার নাম<br><input class="input" type="name" placeholder="সম্পূর্ণ নাম লিখুন" required></p>
+
+                <p>আপনার মোবাইল<br><input class="input" type="name" placeholder="017XXXXXXXX" required></p>
+
+                <p>আপনার ঠিকানা<br><input class="input" type="name"
+                        placeholder="বাসা নাম্বার, গ্রাম, ইউনিয়ন, থানা, জেলা" required></p>
+
+                <div class="input-delivery-charge">
+                    <p class="delivery-charge-title">শিপিং এরিয়া</p>
+                    <div class="delivery-charge-option">
+                        <p>
+                            <input type="radio" name="deliveryMethod" id="dhakaDelivery">
+                            <label for="dhakaDelivery">ঢাকা সিটির মধ্যে <br>(৮০ টাকা)</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" name="deliveryMethod" id="outsiteDhakaDelivery">
+                            <label for="outsiteDhakaDelivery">ঢাকা সিটির বাহিরে <br>(১৫০ টাকা)</label>
+                        </p>
+
+                    </div>
+                </div>
+
+                <button class="btn-submit" type="submit">অর্ডার কনফার্ম করুন</button>
+            </form>
+        </div>
+    </div </body>
 
 </html>

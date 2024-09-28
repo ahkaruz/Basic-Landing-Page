@@ -1,65 +1,67 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     font-family: 'Arial', sans-serif;
     line-height: 1.5;
     /* transition: all 0.3s ease; */
 }
+
 @font-face {
     font-family: myBgFont;
     src: url(Li\ SK\ Bishal\ Unicode.ttf);
 }
 
-body{
+body {
     background-color: #9ED1DF;
 }
 
-.container{
+.container {
     margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 25px;
 }
 
-.heading{
+.heading {
     margin-top: 20px;
     font-family: myBgFont;
-    color: red;
+    color: #15803D;
     font-weight: lighter;
     font-size: 18px;
     text-align: center;
 }
 
-.heading>span{
+.heading>span {
     font-family: myBgFont;
-    color: red;
+    color: brown;
     font-weight: lighter;
     font-size: 20px;
     text-align: center;
 }
 
-.product-img{
+.product-img {
     width: 80%;
     border-radius: 10px;
     border: 1px red solid;
 }
 
-.description-title{
+.description-title {
     background-color: blueviolet;
-    border-radius: 15px;    
+    border-radius: 15px;
     width: 95%;
 }
 
-.description-title>h2{
+.description-title>h2 {
     font-family: myBgFont;
     font-weight: lighter;
     font-size: 20px;
     text-align: center;
-    color:aliceblue;
+    color: aliceblue;
+    margin: 8px 0;
 }
 
-.description{
+.description {
     background-color: #33ABC3;
     width: 95%;
     height: 175px;
@@ -68,15 +70,122 @@ body{
     align-items: center;
     justify-content: center;
     gap: 15px;
-    border-radius: 15px;  
+    border-radius: 15px;
 }
 
-.description p{
+.description p {
     font-family: myBgFont;
     font-weight: lighter;
     background-color: #F3F6F5;
     width: 70%;
     border-radius: 10px;
     text-align: center;
-    color:chocolate;
+    color: chocolate;
+}
+
+.checkout-title {
+    margin: 10px 0px;
+}
+
+.checkout-title>h2 {
+    font-family: myBgFont;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(34, 95, 148);
+}
+
+.checkout {
+    background-color: #F0F9F4;
+    border-radius: 15px;
+    width: 95%;
+}
+
+.checkout-form {
+    margin: 15px;
+    background-color: #FFF;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 15px 0;
+
+}
+
+.checkout-form>p {
+    margin: 0px 15px;
+    font-family: myBgFont;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #15803D;
+}
+
+
+.btn-submit {
+    margin: 0px 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    font-family: myBgFont;
+    font-weight: lighter;
+    font-size: 18px;
+    background: #DC3545;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 5px;
+}
+
+.input {
+    margin-top: 5px;
+    border: none;
+    background-color: #F0F9F4;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 0;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.input::placeholder {
+    border: none;
+    font-family: myBgFont;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input-delivery-charge {
+    margin: 0 15px;
+}
+
+.delivery-charge-title {
+    font-family: myBgFont;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #15803D;
+}
+
+.delivery-charge-option {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    text-align: center;
+}
+
+input[name="deliveryMethod"] {
+    accent-color: #15803D;
+    margin-right: 5px;
+}
+
+.input-delivery-charge label {
+    font-size: 16px;
+    cursor: pointer;
+    font-family: myBgFont;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #757575;
 }
