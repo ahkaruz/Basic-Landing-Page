@@ -122,7 +122,6 @@ body {
     color: #15803D;
 }
 
-
 .btn-submit {
     margin: 0px 15px;
     margin-bottom: 5px;
@@ -133,7 +132,7 @@ body {
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    padding: 5px;
+    padding: 7px;
 }
 
 .input {
@@ -145,15 +144,23 @@ body {
     padding: 10px 0;
     padding-left: 15px;
     box-sizing: border-box;
+    font-size: 15px;
 }
 
 .input::placeholder {
     border: none;
-    font-size: 14px;
+    font-size: 14px;  
+    font-family: myBgFont;  
 }
 
 .input:focus {
     outline: none;
+    font-size: 16px;
+    transition: all 0.3s ease; 
+}
+
+.input:not(:focus){
+    transition: all 0.4s ease;
 }
 
 .input-delivery-charge {
@@ -232,14 +239,11 @@ input[name="deliveryOption"] {
     background-color: #ff5e5e;
     border: none;
     padding: 4px 25px;
+    font-family: sans-serif;
     color: white;
     font-size: 14px;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
     width: 40%;
-}
-
-.close-btn:hover {
-    background-color: #e04e4e;
 }

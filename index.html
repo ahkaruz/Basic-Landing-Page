@@ -26,7 +26,7 @@
             <p>১ টি কিং সাইজ কম্ফোর্টার।</p>
             <p>১ টি কিং সাইজ বেডশীট।</p>
             <p>২ টি মাথার বালিশের কভার।</p>
-            <p>২ টি মাথার বালিশের কভার।</p>
+            <p>২ টি কোল বালিশের কভার।</p>
         </div>
 
         <div class="checkout" id="checkoutFormContainer">
@@ -34,12 +34,19 @@
                 <h2>অর্ডার করতে নিচের ফর্মটি সঠিক ভাবে পূরন করুন</h2>
             </div>
             <form class="checkout-form" id="checkoutForm" method="POST" action="process_order.php">
-                <p>আপনার নাম<br><input class="input" type="text" name="name" placeholder="সম্পূর্ণ নাম লিখুন" required>
+
+                <p>আপনার নাম<br><input class="input" type="text" name="name" placeholder="সম্পূর্ণ নাম লিখুন"
+                        id="inputText" oninput="detectLanguage()" required>
                 </p>
-                <p>আপনার মোবাইল<br><input class="input" type="text" name="mobile" placeholder="017XXXXXXXX" required>
+
+                <p>আপনার মোবাইল<br><input class="input" type="text" name="mobile" placeholder="017XXXXXXXX"
+                        id="inputText" oninput="detectLanguage()" required>
                 </p>
+
                 <p>আপনার ঠিকানা<br><input class="input" type="text" name="address"
-                        placeholder="বাসা নাম্বার, গ্রাম, ইউনিয়ন, থানা, জেলা" required></p>
+                        placeholder="বাসা নাম্বার, গ্রাম, ইউনিয়ন, থানা, জেলা" id="inputText" oninput="detectLanguage()"
+                        required></p>
+
                 <div class="input-delivery-charge">
                     <p class="delivery-charge-title">শিপিং এরিয়া</p>
                     <div class="delivery-charge-option">
@@ -67,4 +74,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>

@@ -20,5 +20,5 @@ document.getElementById("overlay").onclick = function () {
 
 document.getElementById("orderButton").addEventListener("click", function () {
   const checkoutForm = document.getElementById("checkoutFormContainer");
-  checkoutForm.scrollIntoView({ behavior: "smooth" }); // Smooth scroll to the form
+  checkoutForm.scrollIntoView({ behavior: "smooth" }); 
 });
