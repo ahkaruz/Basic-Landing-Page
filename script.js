@@ -22,3 +22,11 @@ document.getElementById("orderButton").addEventListener("click", function () {
   const checkoutForm = document.getElementById("checkoutFormContainer");
   checkoutForm.scrollIntoView({ behavior: "smooth" }); 
 });
+
+document.getElementById('whatsappBtn').addEventListener('click', function() {
+  window.open('https://wa.me/8801684442129', '_blank');
+});
+
+document.getElementById('callNowBtn').addEventListener('click', function() {
+  window.location.href = 'tel:+8801684442129';
+});
