@@ -12,7 +12,7 @@
     <div class="container">
         <div class="heading">
             <h1 class="header">৫ পিছের কম্ফোর্টার সেট পাচ্ছেন মাত্র <br> <span>৩১৫০ টাকায়</span></h1>
-            <button id="orderButton" class="order-button">!!!এখনই অর্ডার করুন!!!</button>
+            <button id="orderButton" class="order-button">এখনই অর্ডার করুন</button>
 
         </div>
 

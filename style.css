@@ -32,7 +32,7 @@ body {
     color: #15803D;
     font-size: 22px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .header>span {
@@ -42,13 +42,14 @@ body {
 }
 
 .order-button {
-    color: brown;
-    font-size: 20px;
+    color:#F0F9F4;
+    font-size: 18px;
     text-align: center;
-    background-color: #F3F6F5;
+    background-color: brown;
     border-radius: 5px;
-    padding: 3px 15px;
+    padding: 5px 30px;
     border: none;
+    cursor: pointer;
 }
 
 .product-img {
@@ -132,7 +133,7 @@ body {
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    padding: 7px;
+    padding: 8px;
 }
 
 .input {
@@ -145,22 +146,18 @@ body {
     padding-left: 15px;
     box-sizing: border-box;
     font-size: 15px;
+    color: brown;
 }
 
 .input::placeholder {
     border: none;
-    font-size: 14px;  
-    font-family: myBgFont;  
+    font-size: 14px;
+    font-family: myBgFont;
 }
 
 .input:focus {
     outline: none;
-    font-size: 16px;
-    transition: all 0.3s ease; 
-}
-
-.input:not(:focus){
-    transition: all 0.4s ease;
+    font-size: 15px;
 }
 
 .input-delivery-charge {
@@ -180,7 +177,7 @@ body {
 }
 
 input[name="deliveryOption"] {
-    accent-color: #15803D;
+    accent-color: brown;
     margin-right: 5px;
     cursor: pointer;
 }
