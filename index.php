@@ -69,8 +69,7 @@
                     অর্ডার কনফার্ম করুন
                 </button>
             </form>
-        </div>
-        <div class="btn-contact-set">
+            <div class="btn-contact-set">
             <button class="callnow" id="callNowBtn" type="button">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <path
@@ -87,6 +86,8 @@
                 WhatsApp
             </button>
         </div>
+        </div>
+        
         <div class="overlay" id="overlay"></div>
         <div class="popup" id="popupForm">
             <video autoplay muted class="popup-video">
