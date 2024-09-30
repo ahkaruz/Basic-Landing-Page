@@ -214,10 +214,6 @@ body {
     font-size: 15px;
 }
 
-.input-delivery-charge {
-    margin: 0 15px;
-}
-
 .delivery-charge-title {
     font-size: 16px;
     color: #15803D;
@@ -233,11 +229,9 @@ body {
 input[name="deliveryOption"] {
     accent-color: brown;
     margin-right: 2x;
-    cursor: pointer;
 }
 
 .input-delivery-charge label {
-    cursor: pointer;
     font-size: 14px;
     color: #757575;
 }

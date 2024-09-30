@@ -30,3 +30,4 @@ document.getElementById('whatsappBtn').addEventListener('click', function() {
 document.getElementById('callNowBtn').addEventListener('click', function() {
   window.location.href = 'tel:+8801684442129';
 });
+
