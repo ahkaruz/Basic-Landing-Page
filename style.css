@@ -132,7 +132,7 @@ body {
     background: brown;
     color: white;
     cursor: pointer;
-    padding: 5px;
+    padding: 8px;
 }
 
 .btn-contact-set{
@@ -150,15 +150,16 @@ body {
     background:#FFA500;
     color: white;
     cursor: pointer;
-    padding: 5px 10px;
+    padding: 10px 0;
     display: flex;
     justify-content: center;
-    gap: 6px;
+    align-items: center;
+    gap: 5px;
     flex: 1;
 }
 
 .callnow >svg{
-    width: 16px;  
+    width: 16px; 
 }
 
 .callnow path {
@@ -173,7 +174,7 @@ body {
     background: #4BCB5A;
     color: white;
     cursor: pointer;
-    padding: 5px 10px;
+    padding: 10px 0;
     display: flex;
     justify-content: center;
     gap: 6px;
