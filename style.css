@@ -42,7 +42,7 @@ body {
 }
 
 .order-button {
-    color:#F0F9F4;
+    color: #F0F9F4;
     font-size: 18px;
     text-align: center;
     background-color: brown;
@@ -107,25 +107,30 @@ body {
     width: 95%;
 }
 
-.checkout-form {
+.form-container {
     margin: 15px;
     background-color: #FFF;
     border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.checkout-form {
+
     display: flex;
     flex-direction: column;
     gap: 25px;
-    padding: 15px 0;
 }
 
 .checkout-form>p {
-    margin: 0px 15px;
     font-size: 16px;
     color: #15803D;
 }
 
 
 .btn-submit {
-    margin: 0px 15px;
     border-radius: 5px;
     border: none;
     font-size: 15px;
@@ -135,19 +140,16 @@ body {
     padding: 10px;
 }
 
-.btn-contact-set{
+.btn-contact-set {
     display: flex;
-    margin: 0px 15px;    
-    margin-bottom: 15px;
-    
+    gap: 20px;
 }
 
 .callnow {
-    margin: 0px 15px;
     border-radius: 5px;
     border: none;
     font-size: 15px;
-    background:#FFA500;
+    background: #FFA500;
     color: white;
     cursor: pointer;
     padding: 10px 0;
@@ -158,8 +160,8 @@ body {
     flex: 1;
 }
 
-.callnow >svg{
-    width: 16px; 
+.callnow>svg {
+    width: 16px;
 }
 
 .callnow path {
@@ -167,7 +169,6 @@ body {
 }
 
 .whatsapp {
-    margin: 0px 15px;
     border-radius: 5px;
     border: none;
     font-size: 15px;
@@ -181,8 +182,8 @@ body {
     flex: 1;
 }
 
-.whatsapp >svg{
-    width: 18px;  
+.whatsapp>svg {
+    width: 18px;
 }
 
 .whatsapp path {
@@ -231,7 +232,7 @@ body {
 
 input[name="deliveryOption"] {
     accent-color: brown;
-    margin-right: 5px;
+    margin-right: 2x;
     cursor: pointer;
 }
 
